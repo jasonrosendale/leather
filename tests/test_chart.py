@@ -4,11 +4,12 @@ import os
 import warnings
 
 import leather
+from leather.testcase import LeatherTestCase
 
 TEST_SVG = '.test.svg'
 
 
-class TestChart(leather.LeatherTestCase):
+class TestChart(LeatherTestCase):
     def setUp(self):
         self.data1 = [
             (0, 3),

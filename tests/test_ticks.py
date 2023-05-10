@@ -6,10 +6,11 @@ from decimal import Decimal
 
 import leather
 from leather import utils
+from leather.testcase import LeatherTestCase
 from leather.ticks.score_time import ScoreTicker, ScoreTimeTicker
 
 
-class TestScoreTicker(leather.LeatherTestCase):
+class TestScoreTicker(LeatherTestCase):
     def test_years(self):
         ticker = ScoreTicker(Decimal(0), Decimal(10))
 

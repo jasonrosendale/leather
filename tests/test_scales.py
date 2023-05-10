@@ -4,9 +4,10 @@ from datetime import date, datetime
 from decimal import Decimal
 
 import leather
+from leather.testcase import LeatherTestCase
 
 
-class TestLinear(leather.LeatherTestCase):
+class TestLinear(LeatherTestCase):
     def test_project(self):
         scale = leather.Linear(0, 10)
 

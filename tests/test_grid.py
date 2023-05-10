@@ -3,11 +3,12 @@
 import os
 
 import leather
+from leather.testcase import LeatherTestCase
 
 TEST_SVG = '.test.svg'
 
 
-class TestGrid(leather.LeatherTestCase):
+class TestGrid(LeatherTestCase):
     def setUp(self):
         self.data1 = [
             (0, 3),

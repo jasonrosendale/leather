@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 import leather
+from leather.testcase import LeatherTestCase
 
 
-class TestChart(leather.LeatherTestCase):
+class TestChart(LeatherTestCase):
     def setUp(self):
         self.data = [
             (0, 3),

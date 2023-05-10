@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 import leather
+from leather.testcase import LeatherTestCase
 
 
-class TestLattice(leather.LeatherTestCase):
+class TestLattice(LeatherTestCase):
     def setUp(self):
         self.data1 = [
             (0, 3),

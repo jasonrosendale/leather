@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 
 import leather
+from leather.testcase import LeatherTestCase
 from leather.utils import X, Y, Z
 
 
-class TestSeries(leather.LeatherTestCase):
+class TestSeries(LeatherTestCase):
     def test_pairs(self):
         data = [
             ('foo', 1),

@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 import leather
+from leather.testcase import LeatherTestCase
 
 
-class TestBars(leather.LeatherTestCase):
+class TestBars(LeatherTestCase):
     def setUp(self):
         self.shape = leather.Bars('red')
         self.linear = leather.Linear(0, 10)
